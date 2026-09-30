@@ -4,6 +4,8 @@ A fishmonger system for **RSG-Core (RedM)**. Players visit a fishmonger NPC in a
 
 ---
 
+<img width="1920" height="1080" alt="20260930182134_1" src="https://github.com/user-attachments/assets/a64ceaae-b9c8-4cfe-b786-94c1223a61a6" />
+
 ## Features
 
 - **8 fishmonger NPCs**: Saint Denis, Blackwater, Valentine, Rhodes, Annesburg, Van Horn, Tumbleweed and the river trading post. Each has an optional map blip.
