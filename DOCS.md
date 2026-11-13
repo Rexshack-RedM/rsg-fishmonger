@@ -85,4 +85,4 @@ The server checks distance to the NPC, opening hours, cooldown, that the fish ar
 | Shop items missing | Item must exist in rsg-core items |
 | Fish not listed | Missing from `Config.Fish` |
 
-Support: https://buymeacoffee.com/rexshack
+Support the Project : https://rexshack.tebex.store/
