@@ -1,4 +1,4 @@
-# rsg-fishmonger – Docs (v3.0.0)
+# rsg-fishmonger – Docs (v3.1.0)
 
 ## Contents
 1. Files
@@ -84,5 +84,10 @@ The server checks distance to the NPC, opening hours, cooldown, that the fish ar
 | "Town stock full" | Wait for the next real day or raise `perLocation` |
 | Shop items missing | Item must exist in rsg-core items |
 | Fish not listed | Missing from `Config.Fish` |
+
+## rsg-skills integration
+
+`Config.Bonus.skill = { enabled, name, perk }`. `bonusFor(Player)` reads `exports['rsg-skills']:GetPerk(src, name, perk)` on the server (a percent, so `10` becomes `+0.10`) and adds it to the job and rep bonus. It is applied on the server for the payout and for the bonus sent to the UI. Skipped when rsg-skills is not started.
+
 
 Support the Project : https://rexshack.tebex.store/
